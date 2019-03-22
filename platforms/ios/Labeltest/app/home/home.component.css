@@ -1,0 +1,373 @@
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400; 
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+    font-weight: 400; 
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900; 
+}
+/* Add mobile styles for the component here.  */
+.title-text-normal {
+    color: white;
+    font-size: 25;
+    font-weight: bold;
+}
+.h3 {
+    color: #1279C4;
+    font-size: 20;
+    text-decoration: underline;
+}
+.bigPrflLblsCls{
+    font-size: 16;
+}
+.smlPrflLblsClass{
+    font-size: 16;
+}
+/* #profile{
+    background-color: white;
+    border-color: #C6C6C6;
+    border-width: 2;
+    margin: 15 0 0 0;
+    width: 85%;
+    height: 250;
+} */
+#logout{
+    width: 40%;
+    height: 18%;
+    background-color: #FDD931;
+    color: black;
+    font-size: 15;
+    font-weight: bold;
+    text-transform: none;
+}
+.portfolioBtn {
+    width: 85%;
+    /* height: 240px; */
+    height: 70;
+    background-color: #0072CA;
+    color: white;
+    font-size: 20;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 8;
+}
+/* .portfolioBtn{
+    width: 85%;
+    height: 240px;
+    background-color: #1279C4;
+    color: white;
+    font-size: 20;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 8;
+} */
+/* .android1280 :host .portfolioBtn {
+    width: 85%;
+    height: 240px;
+    font-size: 22;
+    background-color: #1279C4;
+    color: white;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 8;
+}
+.android480 :host .portfolioBtn {
+    width: 85%;
+    height: 180px;
+    font-size: 20;
+    background-color: #1279C4;
+    color: white;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 8;
+} */
+/* .ios1080 :host .portfolioBtn {
+    height: 240px;
+    font-size: 20;
+}
+.ios640 :host .portfolioBtn {
+    height: 200px;
+    font-size: 20;
+}
+.ios1536 :host .portfolioBtn {
+    height: 240px;
+    font-size: 22;
+} */
+/* .ios320 :host .portfolioBtn {
+    width: 85%;
+    height: 130px;
+    font-size: 23;
+    background-color: #1279C4;
+    color: white;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 8;
+}
+.iphone5s :host .portfolioBtn {
+    width: 85%;
+    height: 130px;
+    font-size: 23;
+    background-color: #1279C4;
+    color: white;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 8;
+} */
+.apEntry {
+    width: 85%;
+    /* height: 480px; */
+    height: 150;
+    background-color: white;
+    border-color: black;
+    border-width: 1;
+}
+
+/* .apEntry{
+    width: 85%;
+    height: 480px;
+    background-color: white;
+    border-color: black;
+    border-width: 1;
+} */
+/* .android1280 :host .apEntry {
+    height: 480px;
+}
+.android480 :host .apEntry {
+    height: 280px;
+}
+.ios1080 :host .apEntry {
+    height: 480px;
+}
+.ios640 :host .apEntry {
+    height: 320px;
+}
+.ios1536 :host .apEntry {
+    height: 480px;
+}
+.ios320 :host .apEntry {
+    height: 280px;
+}
+.iphone5s :host .apEntry {
+    height: 280px;
+} */
+#scanBtn{
+    width: 85%;
+    height: 60%;
+    background-color: #0072CA;
+    color: white;
+    font-size: 25;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 8;
+}
+.h5{
+    color: #989898;
+    font-size: 20;
+    font-weight: bold;
+}
+#submit{
+    width: 50%;
+    height: 30%;
+    background-color: #FDD931;
+    color: black;
+    font-size: 17;
+    font-weight: bold;
+    text-transform: none;
+}
+#submitDisabled{
+    width: 50%;
+    height: 30%;
+    background-color: #FEF2B3;
+    color: #B0A77C;
+    font-size: 17;
+    font-weight: bold;
+    text-transform: none;
+}
+.selected {
+    background-color: white;
+    color: black;
+    border-top-color: #0072CA;
+    border-top-width: 5; 
+}
+.deselected {
+    background-color: #DFE8EF;
+    color: black;
+}
+.android .host .leaderButton.selected{
+    background-color: white;
+    color: black;
+    border-top-color: #0072CA;
+    border-top-width: 5; 
+}
+.android .host .leaderButton.deselected{
+    background-color: #DFE8EF;
+    color: black;
+}
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+For example, the following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+.btn:disabled {
+    background-color: #FDD931;
+}
+#disabledBtn{
+    background-color: #FEF2B3;
+    color: #B0A77C;
+}
+.actionBar{
+    background-color: black;
+    height: 8%;
+}
+.android1280 :host .actionBar {
+    height: 150px;
+}
+.android480 :host .actionBar {
+    height: 80px;
+}
+.ios1080 :host .actionBar {
+    height: 150px;
+}
+.ios640 :host .actionBar {
+    height: 120px;
+}
+.ios1536 :host .actionBar {
+    height: 180px;
+}
+
+.profile{
+    background-color: white;
+    border-color: #C6C6C6;
+    border-width: 2;
+    width: 85%;
+    height: 215;
+}
+.even {
+    background-color: #F5F6F8;
+}
+.odd {
+    background-color: white;
+}
+/* .portfolioBtn{
+    width: 85%;
+    height: 240px;
+    background-color: #1279C4;
+    color: white;
+    font-size: 20;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 8;
+}
+.android1280 :host .portfolioBtn {
+    height: 240px;
+    font-size: 22;
+}
+.android480 :host .portfolioBtn {
+    height: 180px;
+    font-size: 20;
+}
+.ios320 :host .portfolioBtn {
+    height: 130px;
+    font-size: 23;
+}
+.iphone5s :host .portfolioBtn {
+    height: 130px;
+    font-size: 23;
+} */
+
+.accessCodeBtn{
+    width: 30%;
+    /* height: 100px; */
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 8;
+    /* font-size: 18; */
+}
+.android1280 :host .accessCodeBtn {
+    height: 120px;
+    font-size: 18;
+}
+.android480 :host .accessCodeBtn {
+    height: 60px;
+    font-size: 16;
+}
+.ios1080 :host .accessCodeBtn {
+    height: 120px;
+    font-size: 16;
+}
+.ios640 :host .accessCodeBtn {
+    height: 80px;
+    font-size: 10;
+}
+.ios1536 :host .accessCodeBtn {
+    height: 150px;
+    font-size: 20;
+}
+
+/* .apEntry{
+    width: 85%;
+    height: 480px;
+    background-color: white;
+    border-color: black;
+    border-width: 1;
+}
+.android1280 :host .apEntry {
+    height: 480px;
+}
+.android480 :host .apEntry {
+    height: 280px;
+}
+.ios1080 :host .apEntry {
+    height: 480px;
+}
+.ios640 :host .apEntry {
+    height: 320px;
+}
+.ios1536 :host .apEntry {
+    height: 480px;
+}
+.ios320 :host .apEntry {
+    height: 280px;
+}
+.iphone5s :host .apEntry {
+    height: 280px;
+} */
+
+.title-text-normal {
+    font-family: Roboto;
+}
+.btn{
+    font-family: Roboto;
+}
+Label{
+    font-family: Roboto;
+}
+.h2{
+    font-family: Roboto;
+}
+.h3{
+    font-family: Roboto;
+}
+.h4{
+    font-family: Roboto;
+}
+.h5{
+    font-family: Roboto;
+}
+.h6{
+    font-family: Roboto;
+}
+Button {
+    font-family: Roboto;
+}

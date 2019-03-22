@@ -1,0 +1,1504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2EF782F412B9E4B62EC9D58313964E /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C1246A3ABB3D5EFF655E757181242A /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4B8913A6194C1F91B73A74CAED0DCB /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C09BB3E6A0ACC5D0EE4E71A340F693 /* IQBarButtonItem.m */; };
+		10D5DDC653E3129429EAA5F479578CF7 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A9CA393C4B7A5A13F73A17F743778F /* IQUIView+Hierarchy.m */; };
+		1201B1B59F2CBAE4BFF1C769A089F04B /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 270BF715398F1CD556D460E32BDFAA18 /* IQToolbar.m */; };
+		12869BC95AAE176B4B3A52C26D777B92 /* QBVideoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF935E5B24BAAB81DB89F0E30FA77E8A /* QBVideoIconView.m */; };
+		13D1914A52F0776321767E554ACC1731 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDFBC9CBA01EE5F14FDBF39BC85A9FD /* Photos.framework */; };
+		150BFFA605A6B894A046B13F13E15032 /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 31C1C7EE314C6CB41F360149F4B66E7B /* SAMKeychain.bundle */; };
+		160B28C75D434CD2C52DEE1760C8D8BD /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B0B282B8CFF0850EC6C4D37A994307 /* BEMCheckBox-dummy.m */; };
+		1E7F32E3171D05AC23D48C4BB46E22B2 /* QBVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB12DB4F4E5E2C213E8372A25BFF9E /* QBVideoIndicatorView.m */; };
+		1F685B2D954D862024EAD684BB403DCB /* QBAssetsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B334A78BFD9144FAFFF71F8B0A6A3F2 /* QBAssetsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22D1CB1D357616EB781962AB33FA39F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C554E0AA01872629EC34ACE7D5B99BA9 /* Foundation.framework */; };
+		266CC0324D1A0024FDE39A2DC8FDE73A /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DC9CA6E59BDD6432CDC34F8D4FBC9 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27FECFD6E96655725F36756FDDDAA38E /* QBImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81D27261E664186E60D12DFD9B060AF /* QBImagePickerController.m */; };
+		2882E057E80399E2FA38CA6A3669B812 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 08F30CA00B4E53F84EFE0BCC080A9BD4 /* zh-Hans.lproj */; };
+		28FD5BF9A1BD0A4ABBF5D93A3ADD1EDD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BCC002CBF32F18DF26A37082252882 /* Security.framework */; };
+		292D80D6B6E53B605B34489AFB6E2679 /* QBAlbumCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD5D9C98F269528A73F6547FAF5F8DD /* QBAlbumCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B7261AB881EDD8430D190AB62D58C59 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 00383927C22C31994C59A88578B3BBDB /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B7A15C15D9F929E6E6BA52B7BC9E0CE /* QBImagePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365B9A94E1FEC064EB11E3B904E9B77E /* QBImagePicker.storyboard */; };
+		2E260B55818E6B32298C21C3E556EF98 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A771E2BF64BC9ECF4D14AA3A3A8FFF5 /* BEMCheckBox.m */; };
+		33F249D9802DE07045F62CDC7389174C /* QBCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5D657A618AEB3706D032E54CC627FD /* QBCheckmarkView.m */; };
+		3676F08333878303A290EBD834CD06FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C554E0AA01872629EC34ACE7D5B99BA9 /* Foundation.framework */; };
+		3B5E77113A2B01D37D98570263B8463D /* QBAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEBEB8799BFAD2920A655C8522D056C /* QBAssetsViewController.m */; };
+		3D0FB1BAF5CF96FD74982664503A576C /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A9696D38FE8FE9B278FA11D126675DB1 /* de.lproj */; };
+		3D7B9AB514124A054C4743DCCE14A7D9 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13981B2736D94CF0F949AA053B1C7144 /* IQUIScrollView+Additions.m */; };
+		3F7946B6980350182019FE263719E5CE /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE0A4413EDC42D91EDB95396029EB4E /* IQUIViewController+Additions.m */; };
+		3FDA1CCC5C9CF26A05D9BC63FD39080D /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DC0B8CD484A3C4BEA56D4C1DE0693 /* IQTextView.m */; };
+		40CDAE3042B8831613E47CEA56966B01 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8190631B1DB726A959B30FB935C363F1 /* IQKeyboardManager.m */; };
+		43B515EFF247E214FE33401EC8121D8E /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = AA859418A2A42D7E729C5EBED861BBF0 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46D81D57DDBCFC656760A9192AB2AD0F /* QBAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C1274F011BB3C021CB75AFAA92DD24 /* QBAlbumsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47ACE3AC563AF20D4B5214D3E9D54A24 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBC8C79746BB75AF05E996C915F9FB /* IQPreviousNextView.m */; };
+		49E7363452F39BD8E66574DF83D56C77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F24CA6A89D0175DE734A73F000C73BE /* CoreGraphics.framework */; };
+		4A55EED4F8F7B9EC40AD8A167E109B82 /* QBAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C33FECA65CD7F86069A9BF836E91CA57 /* QBAssetCell.m */; };
+		4EDAA3CBC9D424B3E8A8FDB78AB2C563 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B415087AB29B956CBDAA2C4584D381DC /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50211E13372A7BB7F52D15ADF482DD83 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D5683004CCAEC905B7E616D0CEF92 /* IQTitleBarButtonItem.m */; };
+		50B7B54B5D5C314F0A7F1D4484FBE38B /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 473839561158F00712D99245D083D423 /* IQUIView+IQKeyboardToolbar.m */; };
+		5B32F3F091530FF033F8982ACF0BEA29 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182122661E1AC2FE95F0B2210DAD740D /* BEMPathManager.m */; };
+		5D1B8377EC28DAF3465A52BCE0C8F4F6 /* Pods-Labeltest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 930864854FF4B257F5B710AFF530505F /* Pods-Labeltest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62B225B0548076727A3A3DF951C5FEA9 /* QBVideoIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DDA7F8EF542BC7F6F67AAF702FE5BBC /* QBVideoIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68D5E63AE0403DBC0A7FDC1527DB5C76 /* QBAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A98C7A992C214BC66CD08CF74EC32 /* QBAlbumCell.m */; };
+		695B15B926033750A60778938829CACE /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E1744A67A3D8EE308E6D35D9BDF1A3 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E0A555CC0B525598C6824F17F49BF95 /* QBImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DE25F410A19B1BA75D9708C463D1E3 /* QBImagePickerController-dummy.m */; };
+		6E766441E69A9DABE6A6B9F2BBE8FD0F /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C2D0557C065F1E80D1170AFFDDA9E /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		71C6CD7CFCE7164F40ED77022AC8B5F4 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E9A9C67B28A2F786928E7FFD38F8DB /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A15663A29FCFAC7A0CEDBD4054CD3F2 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8706B7C5048F13F8E332BBC93AEFF87 /* IQUITextFieldView+Additions.m */; };
+		7A2685E30335AB08F230A5EF4C703DA6 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A6DD85DDF11387F450BD37A83CB1DC /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B9FD8963C83EAD768E39632D58C4CDC /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3B50DBEA17FDD5DB26E809DE5EEFC6 /* IQKeyboardReturnKeyHandler.m */; };
+		7C2C474AAC0D1909E3E334233014695D /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B083679F90C104AF20108A5664F981 /* SAMKeychain-dummy.m */; };
+		7D889EB19290493EB8B4AC6DD7591C75 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5EE93CE295E835E903D8176A3DA645 /* BEMCheckBoxGroup.m */; };
+		819F6D635A6B7387BFEE2C4CB8ABA5A8 /* QBCheckmarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7860631B55A0FBBA4E6C1DA5CD276C05 /* QBCheckmarkView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		822406B7FBE5332088103850F63EFFBF /* QBSlomoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = F43555EE31707407E2C882BBC1F8CAAE /* QBSlomoIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D9A8A72EBE5141BB911F1F925311C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C554E0AA01872629EC34ACE7D5B99BA9 /* Foundation.framework */; };
+		871C17723D819803AA7900ADC1624DF1 /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B12C3A47DA8FC15D3ACC3A148AD2BB5 /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		883A45BDD6733154EC5107C803F856D7 /* QBSlomoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 410C3AB28DC7EAEA27B06A3B7714A914 /* QBSlomoIconView.m */; };
+		886B363A3D929975C49C4D402D3B1D09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FABF3C7C5AA700C9B2801A813C743C /* UIKit.framework */; };
+		8D3D649AC816938B8B78CAEC5CE8962F /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = BE70D7AE717ADC45A291AA8E2E9D753D /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB2D6963580B9EA01C94C1A9C613DE6 /* QBAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B5A04B6A2223B37772AAFA9ECBCFC1 /* QBAlbumsViewController.m */; };
+		8F1B1928A5CF3C92836A411CD957B6BB /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E03EED07E16C3DB87DA2D80D6CBC68 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A0AE35D01F654C2E0B32A193EB7506D /* QBAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AF57F63965B4AA57C90BE2DB50A6E080 /* QBAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC2E583FE800ADE166A1C9D3580ACF5 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 096BCE5A058DE34DE58D77BBEA756C6E /* IQKeyboardManager-dummy.m */; };
+		A4CBB299F1244630410150448F219B08 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9D8F86784495FEFADEED581D90A592 /* IQNSArray+Sort.m */; };
+		A5BB642E37FE6028A5A538C7897C4FA8 /* QBVideoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 755DFC6934688E5878BE540B883FE0E8 /* QBVideoIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6B1F2999DE23FB68ED958FDA96B9D2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C554E0AA01872629EC34ACE7D5B99BA9 /* Foundation.framework */; };
+		A9A1B4884406BA13CF99C74C85056DDF /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBBBDC449B60ADB7BB03DB3C8B3CB4C /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B815415460384AE19A6CC8E35D04979C /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF6C7DDFF577E7975CBD41DC5C1AA /* ja.lproj */; };
+		B89E3F69B65F9F1033495F254C6FE7FD /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7933E13255A7D6E8B51B997903325D36 /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F08BB14405131FCECCBE37CBC23F92 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AE07085B553D8FC5AA7D35995019BB11 /* es.lproj */; };
+		C133A767F6184EC60DDB207FF9DF9EC7 /* QBImagePickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1862C7C5B5DD6AEFFED443350E0727FC /* QBImagePickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3263856FA65926DFBCCDE3C4396DD3C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6566BF2AFED8B07A204F7A305FAF032B /* QuartzCore.framework */; };
+		C569DBF903736327A6EBB4809D8B5169 /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CA3F5A511E57737B65997C7866AC67 /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C91D1216111E6B2DC6F0717E1A86E5CD /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6586ECE54FEF332B7705544234C4BBF3 /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB1BA39A04D63DE4DBACCD1F14ECBB4A /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CCC3240F6796382877070AAFFB062A7 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFC09D4DDE3E33FB00200C0E03A3B354 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B5492F9E75EE615236BD18186F363A1 /* IQKeyboardManager.bundle */; };
+		CFE210308EC604E68F77924615B1AD81 /* QBImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 38F00BDEC4827D0B2CF036EEE6D01954 /* QBImagePicker.bundle */; };
+		D015B21B7FDFD7E02CF568E2D0A0C5F2 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 617C006C8D0F580853A7174701C018C5 /* BEMAnimationManager.m */; };
+		D13B79F521AB93D23E36B92398191C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C554E0AA01872629EC34ACE7D5B99BA9 /* Foundation.framework */; };
+		E42EBB5B04567E1A0BFED07A82355D50 /* Pods-Labeltest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 164CB5CA325594472883449234BED503 /* Pods-Labeltest-dummy.m */; };
+		E5EBDD83953D2E17DA2025AC0243F3E5 /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D77C25957350F43B555EDA9366E018 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E781D2C9DA323248FAF022D6EC8E97D6 /* SAMKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C103409CD9C562D0442CBC33EDC10A10 /* SAMKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E887EB54D7A5D4132B0AE0CC28B6C984 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B50F18A7E412EB9DBD039180DE94B8 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECCA3AF80626CB5475019A4875FF99F4 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FD9000D7E202AA619471AE0BD1E368BF /* en.lproj */; };
+		EEE3AA85CA2E39581F6E3DA9C41B989E /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDB534A8BE7A5EE0CB46BA9D81BC14A /* SAMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62BBD5C1FFDAF0B944E04435E7BF896 /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB6A7322BF065B3104D4AC051891CE0 /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A5376102E8A5DDE3B67B1F01497D03 /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8D5270150832D790C768B1CC6CBC05 /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4D5BB0A7CC863C9B52E990ED4002CB /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F31F10A8C242D21E94A11635A1755A2 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC53AA980AFE7ED3FDF191F460AD6BA8 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A4209BF6A3D68DA92CD9B4E71A4EC3E /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD7A36750DCF463CEA1958FE5CA5A1B1 /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD8807F2541E22DDF3C975811FBF18E /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFC3CC22095FFCD8A360146CE15AAC84 /* QBImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7180A5549991C0F27E21F79B356D432D /* QBImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		193BAFA69462A3037FC9A1290F717BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C184A5E48EAA980D2B97372157AC232;
+			remoteInfo = SAMKeychain;
+		};
+		24A82B84C50F7F73AA5B3B68FBB190B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390D1AA031B85E1A0C34141AA4EF2CF2;
+			remoteInfo = "QBImagePickerController-QBImagePicker";
+		};
+		5B1DBEF80C2703CB5E0BC5ED50934331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A938F7AB77B92F5273D43659F12031AD;
+			remoteInfo = IQKeyboardManager;
+		};
+		A91860A953BC7B6877AF34E3FF6221FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADA5765F8A0E665B378C9356B7C05DC;
+			remoteInfo = BEMCheckBox;
+		};
+		ABE2A066DF000FE6881AA9F7EB66BE6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC8CC60BC168268A35DF720CE2742B19;
+			remoteInfo = QBImagePickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00383927C22C31994C59A88578B3BBDB /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
+		07C1246A3ABB3D5EFF655E757181242A /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		089846F16F057FE6C375601C1D593178 /* QBImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		08F30CA00B4E53F84EFE0BCC080A9BD4 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "QBImagePicker/zh-Hans.lproj"; sourceTree = "<group>"; };
+		096BCE5A058DE34DE58D77BBEA756C6E /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		0A771E2BF64BC9ECF4D14AA3A3A8FFF5 /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
+		0BDBC8C79746BB75AF05E996C915F9FB /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
+		0E9DC0B8CD484A3C4BEA56D4C1DE0693 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		0EDB534A8BE7A5EE0CB46BA9D81BC14A /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
+		13981B2736D94CF0F949AA053B1C7144 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		164CB5CA325594472883449234BED503 /* Pods-Labeltest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Labeltest-dummy.m"; sourceTree = "<group>"; };
+		16A9CA393C4B7A5A13F73A17F743778F /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		16D62C964529CAABF6324300355E2DAB /* BEMCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.xcconfig; sourceTree = "<group>"; };
+		182122661E1AC2FE95F0B2210DAD740D /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
+		1862C7C5B5DD6AEFFED443350E0727FC /* QBImagePickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBImagePickerController-umbrella.h"; sourceTree = "<group>"; };
+		1AEBEB8799BFAD2920A655C8522D056C /* QBAssetsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAssetsViewController.m; path = QBImagePicker/QBAssetsViewController.m; sourceTree = "<group>"; };
+		1BD8807F2541E22DDF3C975811FBF18E /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		21B0B282B8CFF0850EC6C4D37A994307 /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
+		24BFC296610A551AA2802E19D80A4E73 /* SAMKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAMKeychain.modulemap; sourceTree = "<group>"; };
+		270BF715398F1CD556D460E32BDFAA18 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		27B083679F90C104AF20108A5664F981 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
+		2F24CA6A89D0175DE734A73F000C73BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		31C1C7EE314C6CB41F360149F4B66E7B /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		3281FD2F409A7B353F1B602FF942725B /* Pods-Labeltest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Labeltest.debug.xcconfig"; sourceTree = "<group>"; };
+		35195CF1C14943176EA001A86152A307 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
+		365B9A94E1FEC064EB11E3B904E9B77E /* QBImagePicker.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = QBImagePicker.storyboard; path = QBImagePicker/QBImagePicker.storyboard; sourceTree = "<group>"; };
+		369A98C7A992C214BC66CD08CF74EC32 /* QBAlbumCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAlbumCell.m; path = QBImagePicker/QBAlbumCell.m; sourceTree = "<group>"; };
+		38F00BDEC4827D0B2CF036EEE6D01954 /* QBImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QBImagePicker.bundle; path = "QBImagePickerController-QBImagePicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CA3F5A511E57737B65997C7866AC67 /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		3A2DF6C7DDFF577E7975CBD41DC5C1AA /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = QBImagePicker/ja.lproj; sourceTree = "<group>"; };
+		3FAB12DB4F4E5E2C213E8372A25BFF9E /* QBVideoIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBVideoIndicatorView.m; path = QBImagePicker/QBVideoIndicatorView.m; sourceTree = "<group>"; };
+		410C3AB28DC7EAEA27B06A3B7714A914 /* QBSlomoIconView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBSlomoIconView.m; path = QBImagePicker/QBSlomoIconView.m; sourceTree = "<group>"; };
+		473839561158F00712D99245D083D423 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		47BCC002CBF32F18DF26A37082252882 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		48B44455D5F23A343C9596D73E3ACEFE /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManager.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5EE93CE295E835E903D8176A3DA645 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		50A6DD85DDF11387F450BD37A83CB1DC /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		50DE25F410A19B1BA75D9708C463D1E3 /* QBImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QBImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		52E9A9C67B28A2F786928E7FFD38F8DB /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
+		53D5268B6940CC2C3D76E58C01C4D249 /* Pods-Labeltest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Labeltest.modulemap"; sourceTree = "<group>"; };
+		55FABF3C7C5AA700C9B2801A813C743C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A4209BF6A3D68DA92CD9B4E71A4EC3E /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
+		5B334A78BFD9144FAFFF71F8B0A6A3F2 /* QBAssetsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAssetsViewController.h; path = QBImagePicker/QBAssetsViewController.h; sourceTree = "<group>"; };
+		5DA9EC9B749FEABA3E9B5F895EAA9E89 /* QBImagePickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QBImagePickerController-Info.plist"; sourceTree = "<group>"; };
+		617C006C8D0F580853A7174701C018C5 /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
+		650DC9CA6E59BDD6432CDC34F8D4FBC9 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		6566BF2AFED8B07A204F7A305FAF032B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6586ECE54FEF332B7705544234C4BBF3 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		6728282238C730C74F9C7988D53C47BD /* QBImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBImagePickerController.xcconfig; sourceTree = "<group>"; };
+		6897BEE4876253121BEC85E6D8C479F2 /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
+		6CE5D00856AB739F361F12736F299E6D /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
+		6FE0A4413EDC42D91EDB95396029EB4E /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		7180A5549991C0F27E21F79B356D432D /* QBImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBImagePickerController.h; path = QBImagePicker/QBImagePickerController.h; sourceTree = "<group>"; };
+		755DFC6934688E5878BE540B883FE0E8 /* QBVideoIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBVideoIconView.h; path = QBImagePicker/QBVideoIconView.h; sourceTree = "<group>"; };
+		75C09BB3E6A0ACC5D0EE4E71A340F693 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		75DF149CFF325E9C2B32644B5046FF41 /* Pods-Labeltest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Labeltest-frameworks.sh"; sourceTree = "<group>"; };
+		7860631B55A0FBBA4E6C1DA5CD276C05 /* QBCheckmarkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBCheckmarkView.h; path = QBImagePicker/QBCheckmarkView.h; sourceTree = "<group>"; };
+		786E3C43D6E6D7BCE65004E95EF3FB67 /* Pods_Labeltest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Labeltest.framework; path = "Pods-Labeltest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CA7B4DE68C8D365505BEA8ABE8DF6C /* BEMCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEMCheckBox-Info.plist"; sourceTree = "<group>"; };
+		7933E13255A7D6E8B51B997903325D36 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		7CCC3240F6796382877070AAFFB062A7 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		7F31F10A8C242D21E94A11635A1755A2 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		7F55DB2844ADCCA7C0AD76D04AD46021 /* IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
+		8190631B1DB726A959B30FB935C363F1 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		81B50F18A7E412EB9DBD039180DE94B8 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		8DDA7F8EF542BC7F6F67AAF702FE5BBC /* QBVideoIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBVideoIndicatorView.h; path = QBImagePicker/QBVideoIndicatorView.h; sourceTree = "<group>"; };
+		90C1274F011BB3C021CB75AFAA92DD24 /* QBAlbumsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAlbumsViewController.h; path = QBImagePicker/QBAlbumsViewController.h; sourceTree = "<group>"; };
+		930864854FF4B257F5B710AFF530505F /* Pods-Labeltest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Labeltest-umbrella.h"; sourceTree = "<group>"; };
+		96DF9CAC5B577609EFF97B452800531D /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAMKeychain.framework; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6636CCF690D9EA376A6F2976F5B3D8 /* BEMCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMCheckBox.framework; path = BEMCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0D5683004CCAEC905B7E616D0CEF92 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		9B12C3A47DA8FC15D3ACC3A148AD2BB5 /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
+		9B5492F9E75EE615236BD18186F363A1 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		9C6AE945907680D8FBD205375079FE26 /* Pods-Labeltest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Labeltest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CD5D9C98F269528A73F6547FAF5F8DD /* QBAlbumCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAlbumCell.h; path = QBImagePicker/QBAlbumCell.h; sourceTree = "<group>"; };
+		9E85C8AF5F0261ABD5ADBCAF01EA8434 /* Pods-Labeltest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Labeltest-Info.plist"; sourceTree = "<group>"; };
+		A9696D38FE8FE9B278FA11D126675DB1 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = QBImagePicker/de.lproj; sourceTree = "<group>"; };
+		AA859418A2A42D7E729C5EBED861BBF0 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		AC8D5270150832D790C768B1CC6CBC05 /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
+		AE07085B553D8FC5AA7D35995019BB11 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = QBImagePicker/es.lproj; sourceTree = "<group>"; };
+		AEB6A7322BF065B3104D4AC051891CE0 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		AF57F63965B4AA57C90BE2DB50A6E080 /* QBAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAssetCell.h; path = QBImagePicker/QBAssetCell.h; sourceTree = "<group>"; };
+		AFDFBC9CBA01EE5F14FDBF39BC85A9FD /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B415087AB29B956CBDAA2C4584D381DC /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		B6E1744A67A3D8EE308E6D35D9BDF1A3 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		B8706B7C5048F13F8E332BBC93AEFF87 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		BE3B50DBEA17FDD5DB26E809DE5EEFC6 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		BE70D7AE717ADC45A291AA8E2E9D753D /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		C003E3FBE9C2DC7FBF8EE7599842E65D /* Pods-Labeltest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Labeltest.release.xcconfig"; sourceTree = "<group>"; };
+		C103409CD9C562D0442CBC33EDC10A10 /* SAMKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-umbrella.h"; sourceTree = "<group>"; };
+		C33FECA65CD7F86069A9BF836E91CA57 /* QBAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAssetCell.m; path = QBImagePicker/QBAssetCell.m; sourceTree = "<group>"; };
+		C554E0AA01872629EC34ACE7D5B99BA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C6D77C25957350F43B555EDA9366E018 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		C967D4254BB5C176AD816422FDF56EFC /* ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist"; sourceTree = "<group>"; };
+		CE5D657A618AEB3706D032E54CC627FD /* QBCheckmarkView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBCheckmarkView.m; path = QBImagePicker/QBCheckmarkView.m; sourceTree = "<group>"; };
+		D3A219B1835B38AEEF25549E1F052250 /* QBImagePickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QBImagePickerController.modulemap; sourceTree = "<group>"; };
+		D52A201ADBAF4E78FFCA90B7C2431492 /* SAMKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SAMKeychain-Info.plist"; sourceTree = "<group>"; };
+		D823EF290A626C19143DE9CE090766B2 /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
+		DC9D8F86784495FEFADEED581D90A592 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		DCBBBDC449B60ADB7BB03DB3C8B3CB4C /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		E31D836B83291D500FE301DC627D948D /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		E4B5A04B6A2223B37772AAFA9ECBCFC1 /* QBAlbumsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAlbumsViewController.m; path = QBImagePicker/QBAlbumsViewController.m; sourceTree = "<group>"; };
+		E81D27261E664186E60D12DFD9B060AF /* QBImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBImagePickerController.m; path = QBImagePicker/QBImagePickerController.m; sourceTree = "<group>"; };
+		EA162E7AA901607E3820B6452D10B2A4 /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		F05C2D0557C065F1E80D1170AFFDDA9E /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		F073BF3ABAC3123540E86DFAC472714B /* Pods-Labeltest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Labeltest-acknowledgements.plist"; sourceTree = "<group>"; };
+		F43555EE31707407E2C882BBC1F8CAAE /* QBSlomoIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBSlomoIconView.h; path = QBImagePicker/QBSlomoIconView.h; sourceTree = "<group>"; };
+		F7E03EED07E16C3DB87DA2D80D6CBC68 /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
+		FABE311D6DE376B64BAFD6C82A0E7F10 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		FBB89156D9E563B59480660D6C2D0358 /* QBImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QBImagePickerController.framework; path = QBImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9000D7E202AA619471AE0BD1E368BF /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = QBImagePicker/en.lproj; sourceTree = "<group>"; };
+		FF935E5B24BAAB81DB89F0E30FA77E8A /* QBVideoIconView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBVideoIconView.m; path = QBImagePicker/QBVideoIconView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BF0D5A6D745221F5A4EDF60341AC554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666394A079C4D1571C47CC2BDC42F11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E7363452F39BD8E66574DF83D56C77 /* CoreGraphics.framework in Frameworks */,
+				22D1CB1D357616EB781962AB33FA39F2 /* Foundation.framework in Frameworks */,
+				C3263856FA65926DFBCCDE3C4396DD3C /* QuartzCore.framework in Frameworks */,
+				886B363A3D929975C49C4D402D3B1D09 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C4AB81867775A5669DF9FFE4494E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D9A8A72EBE5141BB911F1F925311C0 /* Foundation.framework in Frameworks */,
+				28FD5BF9A1BD0A4ABBF5D93A3ADD1EDD /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D74629BE1FB7C29B6EB6B38CAA4D9D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B1F2999DE23FB68ED958FDA96B9D2C /* Foundation.framework in Frameworks */,
+				13D1914A52F0776321767E554ACC1731 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C698B7D344797D842449CAE83532E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13B79F521AB93D23E36B92398191C77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD666231FA5C055309337CE7216BEEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3676F08333878303A290EBD834CD06FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA5B3BD37A86D8678CD3EF954AFE48A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D823EF290A626C19143DE9CE090766B2 /* BEMCheckBox.modulemap */,
+				16D62C964529CAABF6324300355E2DAB /* BEMCheckBox.xcconfig */,
+				21B0B282B8CFF0850EC6C4D37A994307 /* BEMCheckBox-dummy.m */,
+				78CA7B4DE68C8D365505BEA8ABE8DF6C /* BEMCheckBox-Info.plist */,
+				EA162E7AA901607E3820B6452D10B2A4 /* BEMCheckBox-prefix.pch */,
+				39CA3F5A511E57737B65997C7866AC67 /* BEMCheckBox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMCheckBox";
+			sourceTree = "<group>";
+		};
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65B9383744612B49CB30573ED7C6FF41 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		105EE4C204BD1CDDE5F0F87BEBD43E88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24BFC296610A551AA2802E19D80A4E73 /* SAMKeychain.modulemap */,
+				6897BEE4876253121BEC85E6D8C479F2 /* SAMKeychain.xcconfig */,
+				27B083679F90C104AF20108A5664F981 /* SAMKeychain-dummy.m */,
+				D52A201ADBAF4E78FFCA90B7C2431492 /* SAMKeychain-Info.plist */,
+				35195CF1C14943176EA001A86152A307 /* SAMKeychain-prefix.pch */,
+				C103409CD9C562D0442CBC33EDC10A10 /* SAMKeychain-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAMKeychain";
+			sourceTree = "<group>";
+		};
+		1495CF4E9EA425B38AFB969EB1C32E7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE5D00856AB739F361F12736F299E6D /* IQKeyboardManager.modulemap */,
+				E31D836B83291D500FE301DC627D948D /* IQKeyboardManager.xcconfig */,
+				096BCE5A058DE34DE58D77BBEA756C6E /* IQKeyboardManager-dummy.m */,
+				7F55DB2844ADCCA7C0AD76D04AD46021 /* IQKeyboardManager-Info.plist */,
+				FABE311D6DE376B64BAFD6C82A0E7F10 /* IQKeyboardManager-prefix.pch */,
+				AC8D5270150832D790C768B1CC6CBC05 /* IQKeyboardManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		2B1E3E08BEE9984C52CEAA741F53C93C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31C1C7EE314C6CB41F360149F4B66E7B /* SAMKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2C00AEFF6903569FC5C6AAF550C8E6EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A6636CCF690D9EA376A6F2976F5B3D8 /* BEMCheckBox.framework */,
+				48B44455D5F23A343C9596D73E3ACEFE /* IQKeyboardManager.framework */,
+				786E3C43D6E6D7BCE65004E95EF3FB67 /* Pods_Labeltest.framework */,
+				38F00BDEC4827D0B2CF036EEE6D01954 /* QBImagePicker.bundle */,
+				FBB89156D9E563B59480660D6C2D0358 /* QBImagePickerController.framework */,
+				96DF9CAC5B577609EFF97B452800531D /* SAMKeychain.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		319A3572D57EDB723A068D29280982DB /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				7933E13255A7D6E8B51B997903325D36 /* IQBarButtonItem.h */,
+				75C09BB3E6A0ACC5D0EE4E71A340F693 /* IQBarButtonItem.m */,
+				650DC9CA6E59BDD6432CDC34F8D4FBC9 /* IQKeyboardManager.h */,
+				8190631B1DB726A959B30FB935C363F1 /* IQKeyboardManager.m */,
+				81B50F18A7E412EB9DBD039180DE94B8 /* IQKeyboardManagerConstants.h */,
+				B415087AB29B956CBDAA2C4584D381DC /* IQKeyboardManagerConstantsInternal.h */,
+				AA859418A2A42D7E729C5EBED861BBF0 /* IQKeyboardReturnKeyHandler.h */,
+				BE3B50DBEA17FDD5DB26E809DE5EEFC6 /* IQKeyboardReturnKeyHandler.m */,
+				50A6DD85DDF11387F450BD37A83CB1DC /* IQNSArray+Sort.h */,
+				DC9D8F86784495FEFADEED581D90A592 /* IQNSArray+Sort.m */,
+				C6D77C25957350F43B555EDA9366E018 /* IQPreviousNextView.h */,
+				0BDBC8C79746BB75AF05E996C915F9FB /* IQPreviousNextView.m */,
+				6586ECE54FEF332B7705544234C4BBF3 /* IQTextView.h */,
+				0E9DC0B8CD484A3C4BEA56D4C1DE0693 /* IQTextView.m */,
+				B6E1744A67A3D8EE308E6D35D9BDF1A3 /* IQTitleBarButtonItem.h */,
+				9B0D5683004CCAEC905B7E616D0CEF92 /* IQTitleBarButtonItem.m */,
+				BE70D7AE717ADC45A291AA8E2E9D753D /* IQToolbar.h */,
+				270BF715398F1CD556D460E32BDFAA18 /* IQToolbar.m */,
+				1BD8807F2541E22DDF3C975811FBF18E /* IQUIScrollView+Additions.h */,
+				13981B2736D94CF0F949AA053B1C7144 /* IQUIScrollView+Additions.m */,
+				7F31F10A8C242D21E94A11635A1755A2 /* IQUITextFieldView+Additions.h */,
+				B8706B7C5048F13F8E332BBC93AEFF87 /* IQUITextFieldView+Additions.m */,
+				07C1246A3ABB3D5EFF655E757181242A /* IQUIView+Hierarchy.h */,
+				16A9CA393C4B7A5A13F73A17F743778F /* IQUIView+Hierarchy.m */,
+				7CCC3240F6796382877070AAFFB062A7 /* IQUIView+IQKeyboardToolbar.h */,
+				473839561158F00712D99245D083D423 /* IQUIView+IQKeyboardToolbar.m */,
+				DCBBBDC449B60ADB7BB03DB3C8B3CB4C /* IQUIViewController+Additions.h */,
+				6FE0A4413EDC42D91EDB95396029EB4E /* IQUIViewController+Additions.m */,
+				C55755394D35A3E7661D40373119B86E /* Resources */,
+				1495CF4E9EA425B38AFB969EB1C32E7E /* Support Files */,
+			);
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		53C8458477A1AF5A2360E9E7A5E58364 /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB534A8BE7A5EE0CB46BA9D81BC14A /* SAMKeychain.h */,
+				F7E03EED07E16C3DB87DA2D80D6CBC68 /* SAMKeychain.m */,
+				52E9A9C67B28A2F786928E7FFD38F8DB /* SAMKeychainQuery.h */,
+				F05C2D0557C065F1E80D1170AFFDDA9E /* SAMKeychainQuery.m */,
+				2B1E3E08BEE9984C52CEAA741F53C93C /* Resources */,
+				105EE4C204BD1CDDE5F0F87BEBD43E88 /* Support Files */,
+			);
+			name = SAMKeychain;
+			path = SAMKeychain;
+			sourceTree = "<group>";
+		};
+		5F535B7565AFDD94EC5E398E9D4DB124 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD21672D8C01F7C2D5B8A22F02D38577 /* Pods-Labeltest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65B9383744612B49CB30573ED7C6FF41 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2F24CA6A89D0175DE734A73F000C73BE /* CoreGraphics.framework */,
+				C554E0AA01872629EC34ACE7D5B99BA9 /* Foundation.framework */,
+				AFDFBC9CBA01EE5F14FDBF39BC85A9FD /* Photos.framework */,
+				6566BF2AFED8B07A204F7A305FAF032B /* QuartzCore.framework */,
+				47BCC002CBF32F18DF26A37082252882 /* Security.framework */,
+				55FABF3C7C5AA700C9B2801A813C743C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				92681F04AEC8C0184DA4CFFA500924A5 /* Pods */,
+				2C00AEFF6903569FC5C6AAF550C8E6EB /* Products */,
+				5F535B7565AFDD94EC5E398E9D4DB124 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B6609617DEBA485650C70C3A423AEF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3A219B1835B38AEEF25549E1F052250 /* QBImagePickerController.modulemap */,
+				6728282238C730C74F9C7988D53C47BD /* QBImagePickerController.xcconfig */,
+				50DE25F410A19B1BA75D9708C463D1E3 /* QBImagePickerController-dummy.m */,
+				5DA9EC9B749FEABA3E9B5F895EAA9E89 /* QBImagePickerController-Info.plist */,
+				089846F16F057FE6C375601C1D593178 /* QBImagePickerController-prefix.pch */,
+				1862C7C5B5DD6AEFFED443350E0727FC /* QBImagePickerController-umbrella.h */,
+				C967D4254BB5C176AD816422FDF56EFC /* ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QBImagePickerController";
+			sourceTree = "<group>";
+		};
+		92681F04AEC8C0184DA4CFFA500924A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C755B5B49C07FA4C17A69405B05489CC /* BEMCheckBox */,
+				319A3572D57EDB723A068D29280982DB /* IQKeyboardManager */,
+				E8C885D710AFD8387A404FED1C9A788E /* QBImagePickerController */,
+				53C8458477A1AF5A2360E9E7A5E58364 /* SAMKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD21672D8C01F7C2D5B8A22F02D38577 /* Pods-Labeltest */ = {
+			isa = PBXGroup;
+			children = (
+				53D5268B6940CC2C3D76E58C01C4D249 /* Pods-Labeltest.modulemap */,
+				9C6AE945907680D8FBD205375079FE26 /* Pods-Labeltest-acknowledgements.markdown */,
+				F073BF3ABAC3123540E86DFAC472714B /* Pods-Labeltest-acknowledgements.plist */,
+				164CB5CA325594472883449234BED503 /* Pods-Labeltest-dummy.m */,
+				75DF149CFF325E9C2B32644B5046FF41 /* Pods-Labeltest-frameworks.sh */,
+				9E85C8AF5F0261ABD5ADBCAF01EA8434 /* Pods-Labeltest-Info.plist */,
+				930864854FF4B257F5B710AFF530505F /* Pods-Labeltest-umbrella.h */,
+				3281FD2F409A7B353F1B602FF942725B /* Pods-Labeltest.debug.xcconfig */,
+				C003E3FBE9C2DC7FBF8EE7599842E65D /* Pods-Labeltest.release.xcconfig */,
+			);
+			name = "Pods-Labeltest";
+			path = "Target Support Files/Pods-Labeltest";
+			sourceTree = "<group>";
+		};
+		B5916B74E7BE3C9DE715F20354D452DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9696D38FE8FE9B278FA11D126675DB1 /* de.lproj */,
+				FD9000D7E202AA619471AE0BD1E368BF /* en.lproj */,
+				AE07085B553D8FC5AA7D35995019BB11 /* es.lproj */,
+				3A2DF6C7DDFF577E7975CBD41DC5C1AA /* ja.lproj */,
+				365B9A94E1FEC064EB11E3B904E9B77E /* QBImagePicker.storyboard */,
+				08F30CA00B4E53F84EFE0BCC080A9BD4 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C55755394D35A3E7661D40373119B86E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B5492F9E75EE615236BD18186F363A1 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C755B5B49C07FA4C17A69405B05489CC /* BEMCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				5A4209BF6A3D68DA92CD9B4E71A4EC3E /* BEMAnimationManager.h */,
+				617C006C8D0F580853A7174701C018C5 /* BEMAnimationManager.m */,
+				00383927C22C31994C59A88578B3BBDB /* BEMCheckBox.h */,
+				0A771E2BF64BC9ECF4D14AA3A3A8FFF5 /* BEMCheckBox.m */,
+				AEB6A7322BF065B3104D4AC051891CE0 /* BEMCheckBoxGroup.h */,
+				4E5EE93CE295E835E903D8176A3DA645 /* BEMCheckBoxGroup.m */,
+				9B12C3A47DA8FC15D3ACC3A148AD2BB5 /* BEMPathManager.h */,
+				182122661E1AC2FE95F0B2210DAD740D /* BEMPathManager.m */,
+				0CA5B3BD37A86D8678CD3EF954AFE48A /* Support Files */,
+			);
+			name = BEMCheckBox;
+			path = BEMCheckBox;
+			sourceTree = "<group>";
+		};
+		E8C885D710AFD8387A404FED1C9A788E /* QBImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5D9C98F269528A73F6547FAF5F8DD /* QBAlbumCell.h */,
+				369A98C7A992C214BC66CD08CF74EC32 /* QBAlbumCell.m */,
+				90C1274F011BB3C021CB75AFAA92DD24 /* QBAlbumsViewController.h */,
+				E4B5A04B6A2223B37772AAFA9ECBCFC1 /* QBAlbumsViewController.m */,
+				AF57F63965B4AA57C90BE2DB50A6E080 /* QBAssetCell.h */,
+				C33FECA65CD7F86069A9BF836E91CA57 /* QBAssetCell.m */,
+				5B334A78BFD9144FAFFF71F8B0A6A3F2 /* QBAssetsViewController.h */,
+				1AEBEB8799BFAD2920A655C8522D056C /* QBAssetsViewController.m */,
+				7860631B55A0FBBA4E6C1DA5CD276C05 /* QBCheckmarkView.h */,
+				CE5D657A618AEB3706D032E54CC627FD /* QBCheckmarkView.m */,
+				7180A5549991C0F27E21F79B356D432D /* QBImagePickerController.h */,
+				E81D27261E664186E60D12DFD9B060AF /* QBImagePickerController.m */,
+				F43555EE31707407E2C882BBC1F8CAAE /* QBSlomoIconView.h */,
+				410C3AB28DC7EAEA27B06A3B7714A914 /* QBSlomoIconView.m */,
+				755DFC6934688E5878BE540B883FE0E8 /* QBVideoIconView.h */,
+				FF935E5B24BAAB81DB89F0E30FA77E8A /* QBVideoIconView.m */,
+				8DDA7F8EF542BC7F6F67AAF702FE5BBC /* QBVideoIndicatorView.h */,
+				3FAB12DB4F4E5E2C213E8372A25BFF9E /* QBVideoIndicatorView.m */,
+				B5916B74E7BE3C9DE715F20354D452DB /* Resources */,
+				8B6609617DEBA485650C70C3A423AEF8 /* Support Files */,
+			);
+			name = QBImagePickerController;
+			path = QBImagePickerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		099C9FA98E5AD24AD177CEC6DA3657D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC53AA980AFE7ED3FDF191F460AD6BA8 /* BEMAnimationManager.h in Headers */,
+				C569DBF903736327A6EBB4809D8B5169 /* BEMCheckBox-umbrella.h in Headers */,
+				2B7261AB881EDD8430D190AB62D58C59 /* BEMCheckBox.h in Headers */,
+				F62BBD5C1FFDAF0B944E04435E7BF896 /* BEMCheckBoxGroup.h in Headers */,
+				871C17723D819803AA7900ADC1624DF1 /* BEMPathManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C9F147A612FDC87814352D8BAEDB0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292D80D6B6E53B605B34489AFB6E2679 /* QBAlbumCell.h in Headers */,
+				46D81D57DDBCFC656760A9192AB2AD0F /* QBAlbumsViewController.h in Headers */,
+				9A0AE35D01F654C2E0B32A193EB7506D /* QBAssetCell.h in Headers */,
+				1F685B2D954D862024EAD684BB403DCB /* QBAssetsViewController.h in Headers */,
+				819F6D635A6B7387BFEE2C4CB8ABA5A8 /* QBCheckmarkView.h in Headers */,
+				C133A767F6184EC60DDB207FF9DF9EC7 /* QBImagePickerController-umbrella.h in Headers */,
+				FFC3CC22095FFCD8A360146CE15AAC84 /* QBImagePickerController.h in Headers */,
+				822406B7FBE5332088103850F63EFFBF /* QBSlomoIconView.h in Headers */,
+				A5BB642E37FE6028A5A538C7897C4FA8 /* QBVideoIconView.h in Headers */,
+				62B225B0548076727A3A3DF951C5FEA9 /* QBVideoIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F88187E3749F51EF4E3B0B35B0AE30F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E781D2C9DA323248FAF022D6EC8E97D6 /* SAMKeychain-umbrella.h in Headers */,
+				EEE3AA85CA2E39581F6E3DA9C41B989E /* SAMKeychain.h in Headers */,
+				71C6CD7CFCE7164F40ED77022AC8B5F4 /* SAMKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9955DB464F9D51D0C4A43F98B03B5F6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1B8377EC28DAF3465A52BCE0C8F4F6 /* Pods-Labeltest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD89AE2B5E03B80EF60EB95DE649BE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89E3F69B65F9F1033495F254C6FE7FD /* IQBarButtonItem.h in Headers */,
+				F7A5376102E8A5DDE3B67B1F01497D03 /* IQKeyboardManager-umbrella.h in Headers */,
+				266CC0324D1A0024FDE39A2DC8FDE73A /* IQKeyboardManager.h in Headers */,
+				E887EB54D7A5D4132B0AE0CC28B6C984 /* IQKeyboardManagerConstants.h in Headers */,
+				4EDAA3CBC9D424B3E8A8FDB78AB2C563 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				43B515EFF247E214FE33401EC8121D8E /* IQKeyboardReturnKeyHandler.h in Headers */,
+				7A2685E30335AB08F230A5EF4C703DA6 /* IQNSArray+Sort.h in Headers */,
+				E5EBDD83953D2E17DA2025AC0243F3E5 /* IQPreviousNextView.h in Headers */,
+				C91D1216111E6B2DC6F0717E1A86E5CD /* IQTextView.h in Headers */,
+				695B15B926033750A60778938829CACE /* IQTitleBarButtonItem.h in Headers */,
+				8D3D649AC816938B8B78CAEC5CE8962F /* IQToolbar.h in Headers */,
+				FD7A36750DCF463CEA1958FE5CA5A1B1 /* IQUIScrollView+Additions.h in Headers */,
+				FA4D5BB0A7CC863C9B52E990ED4002CB /* IQUITextFieldView+Additions.h in Headers */,
+				0E2EF782F412B9E4B62EC9D58313964E /* IQUIView+Hierarchy.h in Headers */,
+				CB1BA39A04D63DE4DBACCD1F14ECBB4A /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				A9A1B4884406BA13CF99C74C85056DDF /* IQUIViewController+Additions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C184A5E48EAA980D2B97372157AC232 /* SAMKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9110F1C2658433D20B515899C619C7 /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
+			buildPhases = (
+				8F88187E3749F51EF4E3B0B35B0AE30F /* Headers */,
+				6A8B9F791211F76B1E0E434AEEA3E002 /* Sources */,
+				67C4AB81867775A5669DF9FFE4494E1A /* Frameworks */,
+				3BD5729BA1BDE8AF53D77422FE70363F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMKeychain;
+			productName = SAMKeychain;
+			productReference = 96DF9CAC5B577609EFF97B452800531D /* SAMKeychain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		390D1AA031B85E1A0C34141AA4EF2CF2 /* QBImagePickerController-QBImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64F6891E9471C10619BE576133BB85A /* Build configuration list for PBXNativeTarget "QBImagePickerController-QBImagePicker" */;
+			buildPhases = (
+				5F085EEDFD64A8B86E5A2D2E0F94D5B6 /* Sources */,
+				1BF0D5A6D745221F5A4EDF60341AC554 /* Frameworks */,
+				95D36E41D42E6440F8E3AFC654DBB6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QBImagePickerController-QBImagePicker";
+			productName = "QBImagePickerController-QBImagePicker";
+			productReference = 38F00BDEC4827D0B2CF036EEE6D01954 /* QBImagePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6ADA5765F8A0E665B378C9356B7C05DC /* BEMCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9262BEAB0FCB4A922DD00E33ECE0BD /* Build configuration list for PBXNativeTarget "BEMCheckBox" */;
+			buildPhases = (
+				099C9FA98E5AD24AD177CEC6DA3657D1 /* Headers */,
+				5C10BCFDF0BCFD6817EFC286A00F1147 /* Sources */,
+				CD666231FA5C055309337CE7216BEEBB /* Frameworks */,
+				26D313EF00B61ECBAFD36D2FF371B054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMCheckBox;
+			productName = BEMCheckBox;
+			productReference = 9A6636CCF690D9EA376A6F2976F5B3D8 /* BEMCheckBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A938F7AB77B92F5273D43659F12031AD /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1E080D0C17D9EECB7A0F73562A384B /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				CDD89AE2B5E03B80EF60EB95DE649BE9 /* Headers */,
+				487B8E18B11D5D96332ADD13BA3CE7C3 /* Sources */,
+				666394A079C4D1571C47CC2BDC42F11F /* Frameworks */,
+				D2491073816F91F3BC79E28EA02C451B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = 48B44455D5F23A343C9596D73E3ACEFE /* IQKeyboardManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC8CC60BC168268A35DF720CE2742B19 /* QBImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8081A9E11D4D22448862F94E5E5A9E4B /* Build configuration list for PBXNativeTarget "QBImagePickerController" */;
+			buildPhases = (
+				76C9F147A612FDC87814352D8BAEDB0B /* Headers */,
+				48CA6E652446E8E64CD52F32362E4E0F /* Sources */,
+				7D74629BE1FB7C29B6EB6B38CAA4D9D7 /* Frameworks */,
+				5C072DE02019B973E19223F76F58308C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5BAEF6133F1D90D4C98E0F7D67B95B7 /* PBXTargetDependency */,
+			);
+			name = QBImagePickerController;
+			productName = QBImagePickerController;
+			productReference = FBB89156D9E563B59480660D6C2D0358 /* QBImagePickerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF98482A7C53DAECE7139508B18C88A5 /* Pods-Labeltest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64B969166792DD081EC755F6FC688D9 /* Build configuration list for PBXNativeTarget "Pods-Labeltest" */;
+			buildPhases = (
+				9955DB464F9D51D0C4A43F98B03B5F6E /* Headers */,
+				066330EFF8CD27EB85EDCCA4D0EC862C /* Sources */,
+				8C698B7D344797D842449CAE83532E65 /* Frameworks */,
+				A062D622695104A8635C25E584D2C702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813D5F18519C929836D5A365A5A636A1 /* PBXTargetDependency */,
+				03D4243F003DF53B366FAFBE5AB8B54D /* PBXTargetDependency */,
+				98B68C345449EBDE68AA24EC6E417B54 /* PBXTargetDependency */,
+				5ACF4D98B69FC816FD15FC386F25F04A /* PBXTargetDependency */,
+			);
+			name = "Pods-Labeltest";
+			productName = "Pods-Labeltest";
+			productReference = 786E3C43D6E6D7BCE65004E95EF3FB67 /* Pods_Labeltest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2C00AEFF6903569FC5C6AAF550C8E6EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ADA5765F8A0E665B378C9356B7C05DC /* BEMCheckBox */,
+				A938F7AB77B92F5273D43659F12031AD /* IQKeyboardManager */,
+				CF98482A7C53DAECE7139508B18C88A5 /* Pods-Labeltest */,
+				BC8CC60BC168268A35DF720CE2742B19 /* QBImagePickerController */,
+				390D1AA031B85E1A0C34141AA4EF2CF2 /* QBImagePickerController-QBImagePicker */,
+				1C184A5E48EAA980D2B97372157AC232 /* SAMKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D313EF00B61ECBAFD36D2FF371B054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD5729BA1BDE8AF53D77422FE70363F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150BFFA605A6B894A046B13F13E15032 /* SAMKeychain.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C072DE02019B973E19223F76F58308C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE210308EC604E68F77924615B1AD81 /* QBImagePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D36E41D42E6440F8E3AFC654DBB6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0FB1BAF5CF96FD74982664503A576C /* de.lproj in Resources */,
+				ECCA3AF80626CB5475019A4875FF99F4 /* en.lproj in Resources */,
+				C0F08BB14405131FCECCBE37CBC23F92 /* es.lproj in Resources */,
+				B815415460384AE19A6CC8E35D04979C /* ja.lproj in Resources */,
+				2B7A15C15D9F929E6E6BA52B7BC9E0CE /* QBImagePicker.storyboard in Resources */,
+				2882E057E80399E2FA38CA6A3669B812 /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A062D622695104A8635C25E584D2C702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2491073816F91F3BC79E28EA02C451B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC09D4DDE3E33FB00200C0E03A3B354 /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		066330EFF8CD27EB85EDCCA4D0EC862C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42EBB5B04567E1A0BFED07A82355D50 /* Pods-Labeltest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487B8E18B11D5D96332ADD13BA3CE7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4B8913A6194C1F91B73A74CAED0DCB /* IQBarButtonItem.m in Sources */,
+				9CC2E583FE800ADE166A1C9D3580ACF5 /* IQKeyboardManager-dummy.m in Sources */,
+				40CDAE3042B8831613E47CEA56966B01 /* IQKeyboardManager.m in Sources */,
+				7B9FD8963C83EAD768E39632D58C4CDC /* IQKeyboardReturnKeyHandler.m in Sources */,
+				A4CBB299F1244630410150448F219B08 /* IQNSArray+Sort.m in Sources */,
+				47ACE3AC563AF20D4B5214D3E9D54A24 /* IQPreviousNextView.m in Sources */,
+				3FDA1CCC5C9CF26A05D9BC63FD39080D /* IQTextView.m in Sources */,
+				50211E13372A7BB7F52D15ADF482DD83 /* IQTitleBarButtonItem.m in Sources */,
+				1201B1B59F2CBAE4BFF1C769A089F04B /* IQToolbar.m in Sources */,
+				3D7B9AB514124A054C4743DCCE14A7D9 /* IQUIScrollView+Additions.m in Sources */,
+				7A15663A29FCFAC7A0CEDBD4054CD3F2 /* IQUITextFieldView+Additions.m in Sources */,
+				10D5DDC653E3129429EAA5F479578CF7 /* IQUIView+Hierarchy.m in Sources */,
+				50B7B54B5D5C314F0A7F1D4484FBE38B /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				3F7946B6980350182019FE263719E5CE /* IQUIViewController+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48CA6E652446E8E64CD52F32362E4E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D5E63AE0403DBC0A7FDC1527DB5C76 /* QBAlbumCell.m in Sources */,
+				8EB2D6963580B9EA01C94C1A9C613DE6 /* QBAlbumsViewController.m in Sources */,
+				4A55EED4F8F7B9EC40AD8A167E109B82 /* QBAssetCell.m in Sources */,
+				3B5E77113A2B01D37D98570263B8463D /* QBAssetsViewController.m in Sources */,
+				33F249D9802DE07045F62CDC7389174C /* QBCheckmarkView.m in Sources */,
+				6E0A555CC0B525598C6824F17F49BF95 /* QBImagePickerController-dummy.m in Sources */,
+				27FECFD6E96655725F36756FDDDAA38E /* QBImagePickerController.m in Sources */,
+				883A45BDD6733154EC5107C803F856D7 /* QBSlomoIconView.m in Sources */,
+				12869BC95AAE176B4B3A52C26D777B92 /* QBVideoIconView.m in Sources */,
+				1E7F32E3171D05AC23D48C4BB46E22B2 /* QBVideoIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C10BCFDF0BCFD6817EFC286A00F1147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D015B21B7FDFD7E02CF568E2D0A0C5F2 /* BEMAnimationManager.m in Sources */,
+				160B28C75D434CD2C52DEE1760C8D8BD /* BEMCheckBox-dummy.m in Sources */,
+				2E260B55818E6B32298C21C3E556EF98 /* BEMCheckBox.m in Sources */,
+				7D889EB19290493EB8B4AC6DD7591C75 /* BEMCheckBoxGroup.m in Sources */,
+				5B32F3F091530FF033F8982ACF0BEA29 /* BEMPathManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F085EEDFD64A8B86E5A2D2E0F94D5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A8B9F791211F76B1E0E434AEEA3E002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2C474AAC0D1909E3E334233014695D /* SAMKeychain-dummy.m in Sources */,
+				8F1B1928A5CF3C92836A411CD957B6BB /* SAMKeychain.m in Sources */,
+				6E766441E69A9DABE6A6B9F2BBE8FD0F /* SAMKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D4243F003DF53B366FAFBE5AB8B54D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = A938F7AB77B92F5273D43659F12031AD /* IQKeyboardManager */;
+			targetProxy = 5B1DBEF80C2703CB5E0BC5ED50934331 /* PBXContainerItemProxy */;
+		};
+		5ACF4D98B69FC816FD15FC386F25F04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 1C184A5E48EAA980D2B97372157AC232 /* SAMKeychain */;
+			targetProxy = 193BAFA69462A3037FC9A1290F717BE3 /* PBXContainerItemProxy */;
+		};
+		813D5F18519C929836D5A365A5A636A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMCheckBox;
+			target = 6ADA5765F8A0E665B378C9356B7C05DC /* BEMCheckBox */;
+			targetProxy = A91860A953BC7B6877AF34E3FF6221FE /* PBXContainerItemProxy */;
+		};
+		98B68C345449EBDE68AA24EC6E417B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QBImagePickerController;
+			target = BC8CC60BC168268A35DF720CE2742B19 /* QBImagePickerController */;
+			targetProxy = ABE2A066DF000FE6881AA9F7EB66BE6B /* PBXContainerItemProxy */;
+		};
+		D5BAEF6133F1D90D4C98E0F7D67B95B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QBImagePickerController-QBImagePicker";
+			target = 390D1AA031B85E1A0C34141AA4EF2CF2 /* QBImagePickerController-QBImagePicker */;
+			targetProxy = 24A82B84C50F7F73AA5B3B68FBB190B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05CC2C30B591D7CEEFE9BB55A5528C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31D836B83291D500FE301DC627D948D /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		08B0394D5F17A9F046DC0719C25BA452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0D3C1B32B37B4A2E4CE03A497F83F5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31D836B83291D500FE301DC627D948D /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D7F277C347F7A5E7A75A0B10D7E2F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3281FD2F409A7B353F1B602FF942725B /* Pods-Labeltest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Labeltest/Pods-Labeltest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Labeltest/Pods-Labeltest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52C4FBB4B5474737B5F910E8F565CA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6897BEE4876253121BEC85E6D8C479F2 /* SAMKeychain.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMKeychain/SAMKeychain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAMKeychain/SAMKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D2E6BC383A1D065659BBCED806D3BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6728282238C730C74F9C7988D53C47BD /* QBImagePickerController.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QBImagePickerController/QBImagePickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/QBImagePickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBImagePickerController/QBImagePickerController.modulemap";
+				PRODUCT_MODULE_NAME = QBImagePickerController;
+				PRODUCT_NAME = QBImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF7922E622EE1ADCDB3FA8445E35DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C003E3FBE9C2DC7FBF8EE7599842E65D /* Pods-Labeltest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Labeltest/Pods-Labeltest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Labeltest/Pods-Labeltest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE5FDE87D7A3B6249B99CC161E63A4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6728282238C730C74F9C7988D53C47BD /* QBImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBImagePickerController";
+				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QBImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C07623B5C2C0435B1C70BE1987E228DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6728282238C730C74F9C7988D53C47BD /* QBImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBImagePickerController";
+				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QBImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C42AC45B172F68B20068E46ADB576D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6728282238C730C74F9C7988D53C47BD /* QBImagePickerController.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QBImagePickerController/QBImagePickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/QBImagePickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBImagePickerController/QBImagePickerController.modulemap";
+				PRODUCT_MODULE_NAME = QBImagePickerController;
+				PRODUCT_NAME = QBImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9383F20399DF260B1694AFC2DF5398E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6897BEE4876253121BEC85E6D8C479F2 /* SAMKeychain.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMKeychain/SAMKeychain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAMKeychain/SAMKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB352B307C8BCF4D04A7B06F227EF9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D62C964529CAABF6324300355E2DAB /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox.modulemap";
+				PRODUCT_MODULE_NAME = BEMCheckBox;
+				PRODUCT_NAME = BEMCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E82C56363775B4EF468FF2AD9A2F5414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FBD6D9BB19573D78104812293C8E8A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D62C964529CAABF6324300355E2DAB /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox.modulemap";
+				PRODUCT_MODULE_NAME = BEMCheckBox;
+				PRODUCT_NAME = BEMCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1E080D0C17D9EECB7A0F73562A384B /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3C1B32B37B4A2E4CE03A497F83F5FA /* Debug */,
+				05CC2C30B591D7CEEFE9BB55A5528C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B0394D5F17A9F046DC0719C25BA452 /* Debug */,
+				E82C56363775B4EF468FF2AD9A2F5414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9262BEAB0FCB4A922DD00E33ECE0BD /* Build configuration list for PBXNativeTarget "BEMCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD6D9BB19573D78104812293C8E8A37 /* Debug */,
+				DB352B307C8BCF4D04A7B06F227EF9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9110F1C2658433D20B515899C619C7 /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C4FBB4B5474737B5F910E8F565CA10 /* Debug */,
+				C9383F20399DF260B1694AFC2DF5398E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8081A9E11D4D22448862F94E5E5A9E4B /* Build configuration list for PBXNativeTarget "QBImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2E6BC383A1D065659BBCED806D3BAB /* Debug */,
+				C42AC45B172F68B20068E46ADB576D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64F6891E9471C10619BE576133BB85A /* Build configuration list for PBXNativeTarget "QBImagePickerController-QBImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5FDE87D7A3B6249B99CC161E63A4DA /* Debug */,
+				C07623B5C2C0435B1C70BE1987E228DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C64B969166792DD081EC755F6FC688D9 /* Build configuration list for PBXNativeTarget "Pods-Labeltest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7F277C347F7A5E7A75A0B10D7E2F7D /* Debug */,
+				AAF7922E622EE1ADCDB3FA8445E35DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,28 @@
+PODS:
+  - BEMCheckBox (1.4.1)
+  - IQKeyboardManager (6.2.0)
+  - QBImagePickerController (3.4.0)
+  - SAMKeychain (1.5.3)
+
+DEPENDENCIES:
+  - BEMCheckBox (~> 1.4.1)
+  - IQKeyboardManager (~> 6.2.0)
+  - QBImagePickerController (~> 3.4.0)
+  - SAMKeychain (~> 1.5.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BEMCheckBox
+    - IQKeyboardManager
+    - QBImagePickerController
+    - SAMKeychain
+
+SPEC CHECKSUMS:
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+
+PODFILE CHECKSUM: 86fb54e7964737bc5004973d2aedc12648be4985
+
+COCOAPODS: 1.6.0.beta.2

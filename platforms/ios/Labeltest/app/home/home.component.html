@@ -1,0 +1,40 @@
+<ActionBar title="Home" class="action-bar">
+</ActionBar>
+
+<GridLayout>
+    <ScrollView class="page">
+        <StackLayout class="home-panel">
+            <TextField returnKeyType="done" autocorrect="false" autocapitalizationType="words" class="input-field"
+                [(ngModel)]="folderNumber" style="padding-left:5;background-color:#F0F0F0; border-width:0;height:40;">
+            </TextField>
+            <Button text="Add Item" class="btn btn-primary" (tap)="addItems()"></Button>
+            <Button text="Select All" class="btn btn-warning" style="background: green;" (tap)="selectAllItems()"></Button>
+            <Button text="Deselect All" class="btn btn-warning" style="background: yellow;" (tap)="deSelectAllItems()"></Button>
+            <GridLayout rows="*,auto">
+                    
+                    <Button text="Print Items" class="btn btn-primary"  style="background: red;" (tap)="printArr()"></Button>
+                <ListView row="1" [items]="items$ | async" height="300">
+                    <ng-template let-item="item" let-i="index">
+                        <StackLayout orientation="horizontal" (tap)="selectedRow(i, item);">
+                            <!-- <CheckBox #CB1 id="item" boxType="circle" checked="false" style="margin-left:10;margin-right:10;"></CheckBox> -->
+                            <Label [text]="item.folderNumb"></Label>
+                            <Label 
+                            id="item_{{i}}" 
+                            class="fas" 
+                            style="font-size:20em;color: green;margin-left:400px;" 
+                            text="&#xf00c;"
+                            visibility="hidden"></Label>
+                        </StackLayout>
+                    </ng-template>
+                </ListView>
+            </GridLayout>
+        </StackLayout>
+    </ScrollView>
+</GridLayout>
+
+
+<!-- <GridLayout>
+    <StackLayout class="home-panel">
+        <Button row="2" height="50" column="0" text="Release" class="btn btn-primary" (tap)="printData(item)"></Button>
+    </StackLayout>
+</GridLayout> -->

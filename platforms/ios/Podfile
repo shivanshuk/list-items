@@ -1,0 +1,23 @@
+use_frameworks!
+
+target "Labeltest" do
+# Begin Podfile - /Users/312841/personal-project/Native-App/Label-test/node_modules/nativescript-checkbox/platforms/ios/Podfile
+pod 'BEMCheckBox', '~> 1.4.1'
+
+# End Podfile
+
+# Begin Podfile - /Users/312841/personal-project/Native-App/Label-test/node_modules/nativescript-iqkeyboardmanager/platforms/ios/Podfile
+pod 'IQKeyboardManager', '~> 6.2.0'
+
+# End Podfile
+
+# Begin Podfile - /Users/312841/personal-project/Native-App/Label-test/node_modules/nativescript-imagepicker/platforms/ios/Podfile
+pod 'QBImagePickerController', '~> 3.4.0'
+# End Podfile
+
+# Begin Podfile - /Users/312841/personal-project/Native-App/Label-test/node_modules/kinvey-nativescript-sdk/platforms/ios/Podfile
+platform :ios, '9.0'
+pod 'SAMKeychain', '~> 1.5.2'
+
+# End Podfile
+end
